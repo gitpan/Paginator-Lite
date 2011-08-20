@@ -1,23 +1,22 @@
----
-abstract: 'A simple paginator'
+--- #YAML:1.0
+name:               Paginator-Lite
+version:            1.00
+abstract:           A simple paginator
 author:
-  - 'Blabos de Blebe <blabos@cpan.org>'
-build_requires:
-  ExtUtils::MakeMaker: 6.42
-  Test::More: 0
+    - Blabos de Blebe <blabos@cpan.org>
+license:            perl
+distribution_type:  module
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 0.91'
-license: perl
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: Paginator-Lite
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Test::More:  0
 no_index:
-  directory:
-    - inc
-    - t
-resources:
-  license: http://dev.perl.org/licenses/
-version: 0.03
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
