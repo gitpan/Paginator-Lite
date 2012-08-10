@@ -18,5 +18,6 @@ no_index:
     - t
     - inc
 requires:
+  Moo: 0
   Test::More: 0
-version: 2.000000
+version: 2.000001
