@@ -20,4 +20,4 @@ no_index:
 requires:
   Moo: 0
   Test::More: 0
-version: 2.000002
+version: 2.000003
